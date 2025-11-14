@@ -12,12 +12,5 @@
     nanum
     noto-fonts-cjk-sans
     noto-fonts-cjk-serif
-    monoid
-    (nerdfonts.override { fonts = [
-      "Monoid"
-      "FiraCode"
-      "JetBrainsMono"
-      "Meslo"
-    ]; })
   ];
 }
