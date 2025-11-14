@@ -14,7 +14,7 @@
     git
     wget
     curl
-    pkgs.nerdfonts.monoid
+    pkgs.nerd-fonts.monoid
   ];
 
 
