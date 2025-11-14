@@ -9,11 +9,11 @@
 
   outputs = { self, nixpkgs, home-manager }:
     {
-      nixosConfigurations.nixos = nixpkgs.lib.nixosSystem {
+      nixosConfigurations.iridium = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
 
         modules = [
-          ./hosts/labtop
+          ./hosts/iridium
           ./modules
 
           home-manager.nixosModules.home-manager
