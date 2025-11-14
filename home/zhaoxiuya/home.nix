@@ -15,7 +15,7 @@
     wget
     curl
     monoid
-    (nerdfonts.override { fonts = [ "Monoid" ]; })
+    (pkgs.nerdfonts.override { fonts = [ "Monoid" ]; })
   ];
 
 
