@@ -14,9 +14,6 @@
     git
     wget
     curl
-  ];
-  
-  home.packages = with pkgs; [
     monoid
     (nerdfonts.override { fonts = [ "Monoid" ]; })
   ];
