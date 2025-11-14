@@ -5,7 +5,7 @@
   home.homeDirectory = "/home/zhaoxiuya";
   
   imports = [
-    ./programs/zsh
+    ./zsh
   ];
 
   home.packages = with pkgs; [
