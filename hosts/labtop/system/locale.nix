@@ -1,3 +1,5 @@
+{ pkgs, ...} :
+
 {
   i18n.defaultLocale = "en_US.UTF-8";
 
@@ -6,7 +8,7 @@
     variant = "";
   };
   
-  home.packages = with pkgs; [
+  fonts.packages = with pkgs; [
     nanum
     noto-fonts-cjk-sans
     noto-fonts-cjk-serif
