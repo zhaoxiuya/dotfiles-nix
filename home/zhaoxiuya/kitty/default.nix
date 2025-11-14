@@ -9,7 +9,7 @@
       size = 13;
     };
 
-    theme = "Gruvbox Dark";
+    themeFile = "GruvboxMaterialDarkHard";
   };
 }
 
