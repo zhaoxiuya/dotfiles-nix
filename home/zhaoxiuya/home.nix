@@ -7,6 +7,7 @@
   imports = [
     ./zsh
     ./kitty
+    ./git
   ];
 
   home.packages = with pkgs; [
