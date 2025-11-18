@@ -23,6 +23,8 @@
     QT_IM_MODULE = "kime";
     XMODIFIERS = "@im=kime";
   };
+  
+  gtk.theme.name = "GruvboxMaterialDarkHard";
 
   home.stateVersion = "25.05";
 }
