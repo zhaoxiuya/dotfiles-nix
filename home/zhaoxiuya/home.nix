@@ -24,7 +24,7 @@
     XMODIFIERS = "@im=kime";
   };
   
-  gtk.theme.name = "GruvboxMaterialDarkHard";
+  #  gtk.theme.name = "GruvboxMaterialDarkHard";
 
   home.stateVersion = "25.05";
 }
