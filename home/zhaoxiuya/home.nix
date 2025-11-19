@@ -9,7 +9,7 @@
     ./kitty
     ./git
     ./nvim
-    ./hyprland
+    # ./hyprland
   ];
 
   home.packages = with pkgs; [
