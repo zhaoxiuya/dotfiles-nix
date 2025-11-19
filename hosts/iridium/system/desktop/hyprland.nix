@@ -6,8 +6,8 @@
     xwayland.enable = true;
   };
   
-  services.xserver = {
-    enable = true;
+  services = {
+    xserver.enable = true;
     libinput.enable = true;
   };
   
