@@ -11,6 +11,7 @@
     libinput.enable = true;
   };
 
-  services.logind.enable = true;
+  # services.logind.enable = true;
+  
   # services.displayManager.sddm.enable = true;
 }
