@@ -11,8 +11,5 @@
     libinput.enable = true;
   };
   
-  services.displayManager.sddm = {
-    enable = true;
-    xwayland.enable = true;
-  };
+  services.displayManager.sddm.enable = true;
 }
