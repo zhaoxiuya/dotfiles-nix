@@ -6,8 +6,13 @@
     xwayland.enable = true;
   };
 
-  services.xserver.libinput.enable = true;
-
-  # services.displayManager.gdm.wayland = true;
-  services.displayManager.sddm.enable = true;
+  services.xserver = {
+    enable = true;
+    libinput.enable = true;
+  };
+  
+  services.displayManager.sddm = {
+    enable = true;
+    xwayland.enable = true;
+  };
 }
