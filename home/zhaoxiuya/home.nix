@@ -8,6 +8,7 @@
     ./zsh
     ./kitty
     ./git
+    ./nvim
   ];
 
   home.packages = with pkgs; [
