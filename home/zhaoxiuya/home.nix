@@ -17,7 +17,7 @@
     git
     wget
     curl
-    wofi
+    fuzzel
     nerd-fonts.monoid
   ];
 

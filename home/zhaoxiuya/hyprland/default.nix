@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ config, pkgs, ... }:i
 
 {
   wayland.windowManager.hyprland = {
@@ -7,7 +7,7 @@
       bind = [
         "SUPER, RETURN, exec, kitty"
         "SUPER, Q, killactive"
-        "SUPER, D, exec, wofi --show drun"
+        "SUPER, D, exec, fuzzel"
         "SUPER, F, fullscreen"
         "SUPER SHIFT, R, exec, hyprctl reload"
       ];
