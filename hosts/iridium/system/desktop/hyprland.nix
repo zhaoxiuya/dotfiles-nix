@@ -1,13 +1,13 @@
 { config, pkgs, ... }:
 
 {
-  programs.hyprland = {
-    enable = true;
-    xwayland.enable = true;
-  };
+  #programs.hyprland = {
+  #  enable = true;
+  #  xwayland.enable = true;
+  #};
   
   services = {
-    xserver.enable = true;
+  #  xserver.enable = true;
     libinput.enable = true;
   };
 
