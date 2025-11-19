@@ -5,7 +5,7 @@
  
   environment.systemPackages = with pkgs; [
     wget
-    neovim
+    # neovim
     neofetch
     tree
   ];
