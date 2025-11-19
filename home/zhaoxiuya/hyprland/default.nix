@@ -18,8 +18,8 @@
 
       general = {
         border_size = 3;
-        "col.active_border" = "rgba(88ccff 1.0)";
-        "col.inactive_border" = "rgba(444444 0.7)";
+        "col.active_border" = "0x88ccffff";
+        "col.inactive_border" = "0x44444444";
       };
     };
   };
