@@ -4,9 +4,6 @@
   programs.git = {
     enable = true;
 
-    #userName = "Sua Tso";
-    #userEmail = "zhaoxiuya13@gmail.com";
-
     settings = {
       user = {
         name = "zhaoxiuya";
