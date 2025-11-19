@@ -18,7 +18,7 @@
 
       general = {
         border_size = 3;
-        "col.active_border" = "0xaaa1f6ff";
+        "col.active_border" = "0x6fc488ff";
         "col.inactive_border" = "0x44444444";
       };
     };
