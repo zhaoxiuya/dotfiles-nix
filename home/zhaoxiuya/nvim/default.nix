@@ -16,17 +16,14 @@
       nvim-web-devicons
       gruvbox-nvim
     ];
-    
-    settings = {
-      expandtab = true;
-      shiftwidth = 2;
-      tabstop = 2;
-      softtabstop = 2;
-    };
  
     extraConfig = ''
       set number
       set relativenumber
+      set expandtab
+      set shiftwidth=2
+      set tabstop=2
+      set softtabstop=2
       syntax on
       colorscheme gruvbox
       " Telescope
