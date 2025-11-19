@@ -17,7 +17,8 @@
     git
     wget
     curl
-    pkgs.nerd-fonts.monoid
+    wofi
+    nerd-fonts.monoid
   ];
 
   home.sessionVariables = {
