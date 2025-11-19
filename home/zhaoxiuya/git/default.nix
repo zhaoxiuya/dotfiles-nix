@@ -4,10 +4,8 @@
   programs.git = {
     enable = true;
 
-    user = {
-      name = "Sua Tso";
-      email = "zhaoxiuya13@gmail.com";
-    };
+    userName = "Sua Tso";
+    userEmail = "zhaoxiuya13@gmail.com";
 
     settings.user = {
       init.defaultBranch = "main";
