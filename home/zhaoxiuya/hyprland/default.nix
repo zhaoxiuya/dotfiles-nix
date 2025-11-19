@@ -7,7 +7,7 @@
       bind = [
         "SUPER, RETURN, exec, kitty"
         "SUPER, Q, killactive"
-        "SUPER, D, exec, wofi -show drun"
+        "SUPER, D, exec, wofi --show drun"
         "SUPER, F, fullscreen"
         "SUPER SHIFT, R, exec, hyprctl reload"
       ];
