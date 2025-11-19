@@ -1,11 +1,16 @@
 { config, pkgs, ... }:
 
 {
-  programs.hyprland ={
+  wayland.windowManager.hyprland = {
     enable = true;
-
-    input = {
-      kb_layout = "us";
+    settings = {
+      bind = [
+        "SUPER, RETURN, exec, kitty"
+        "SUPER, Q, killactive"
+        "SUPER, D, exec, rofi -show drun"
+        "SUPER, F, fullscreen"
+        "SUPER SHIFT, R, exec, hyprctl reload"
+      ];
     };
   };
 }
