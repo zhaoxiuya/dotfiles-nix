@@ -12,7 +12,7 @@
   ];
 
   home.packages = with pkgs; [
-    neovim
+    # neovim
     git
     wget
     curl
