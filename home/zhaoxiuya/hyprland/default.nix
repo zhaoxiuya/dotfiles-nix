@@ -11,6 +11,13 @@
         "SUPER, F, fullscreen"
         "SUPER SHIFT, R, exec, hyprctl reload"
       ];
+      
+      exec-once = [
+        "kitty"
+        "nm-applet"
+      ];
+      
+      "$mod" = "SUPER";
 
       decoration = {
         rounding = 10;
