@@ -4,9 +4,12 @@
   programs.git = {
     enable = true;
 
-    settings.user = {
-      name = "zhaoxiuya";
+    user = {
+      name = "Sua Tso";
       email = "zhaoxiuya13@gmail.com";
+    };
+
+    settings.user = {
       init.defaultBranch = "main";
       credential.helper = "store";
     };
