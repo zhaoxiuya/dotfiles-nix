@@ -4,6 +4,9 @@
   programs.hyprland = {
     enable = true;
     xwayland.enable = true;
+    input = {
+      kb_layout = "us";
+    };
   };
 
   services.xserver = {
