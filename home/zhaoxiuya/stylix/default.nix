@@ -12,10 +12,30 @@
     base16Scheme = "catppuccin-mocha";
 
     fonts = {
+      sizes = {
+        applications = 11;
+        terminal = 11;
+        desktop = 11;
+      };
+
+      serif = {
+        package = pkgs.nerdfonts;
+        name = "JetBrainsMono Nerd Font";
+      };
+
+      sansSerif = {
+        package = pkgs.nerdfonts;
+        name = "JetBrainsMono Nerd Font";
+      };
+
       monospace = {
         package = pkgs.nerdfonts;
         name = "JetBrainsMono Nerd Font";
-        size = 11;
+      };
+
+      emoji = {
+        package = pkgs.noto-fonts-emoji;
+        name = "Noto Color Emoji";
       };
     };
 
