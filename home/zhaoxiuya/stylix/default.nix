@@ -1,10 +1,6 @@
 { config, pkgs, ... }:
 
 {
-  imports = [
-    stylix.homeManagerModules.stylix
-  ];
-
   stylix = {
     enable = true;
     base16Scheme = "catppuccin-macchiato";
