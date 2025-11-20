@@ -27,7 +27,7 @@
             home-manager.useUserPackages = true;
             home-manager.users.zhaoxiuya.imports = [
               ./home/zhaoxiuya/home.nix
-              stylix.homeManagerModules.stylix
+              stylix.homeModules.stylix
             ];
             home-manager.extraSpecialArgs = {
               stylix = stylix;
