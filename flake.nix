@@ -27,10 +27,10 @@
             home-manager.users.zhaoxiuya.imports = [
               ./home/zhaoxiuya/home.nix
               stylix.homeManager.Modules.stylix
-            ]
+            ];
             home-manager.extraSpecialArgs = {
               stylix = stylix;
-            }
+            };
           }
         ];
       };
