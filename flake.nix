@@ -24,10 +24,15 @@
           {
             home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
-            home-manager.users.zhaoxiuya = import ./home/zhaoxiuya/home.nix;
+            home-manager.users.zhaoxiuya.imports = [
+              ./home/zhaoxiuya/home.nix
+              stylix.homeManager.Modules.stylix
+            ]
+            home-manager.extraSpecialArgs = {
+              stylix = stylix;
+            }
           }
         ];
       };
     };
 }
-
