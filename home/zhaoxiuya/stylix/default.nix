@@ -9,7 +9,7 @@
       sha256 = "sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=";
     };
 
-    base16Scheme = "catppuccin-mocha";
+    base16Scheme = "${stylix.lib.base16.schemes.catppuccin-mocha}";
 
     fonts = {
       sizes = {
