@@ -9,7 +9,7 @@
       sha256 = "sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=";
     };
 
-    colorScheme = "catppuccin-mocha";
+    base16Scheme = "catppuccin-mocha";
 
     fonts = {
       sizes = {
