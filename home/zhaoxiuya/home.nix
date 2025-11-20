@@ -10,7 +10,6 @@
     ./git
     ./nvim
     ./hyprland
-    ./stylix
   ];
 
   home.packages = with pkgs; [
