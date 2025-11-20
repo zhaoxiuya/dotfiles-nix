@@ -18,6 +18,7 @@
         modules = [
           ./hosts/iridium
           ./modules
+          stylix.nixosModules.stylix
 
           home-manager.nixosModules.home-manager
 
@@ -26,7 +27,7 @@
             home-manager.useUserPackages = true;
             home-manager.users.zhaoxiuya.imports = [
               ./home/zhaoxiuya/home.nix
-              stylix.homeManager.Modules.stylix
+              stylix.homeManagerModules.stylix
             ];
             home-manager.extraSpecialArgs = {
               stylix = stylix;
